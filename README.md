@@ -1,3 +1,4 @@
+
 # Smart Transportation Intelligence
 
 ## Implementation Modules
@@ -31,3 +32,6 @@ streamlit run app.py
 ## Important Note
 
 The accident risk target is an academic proxy label created from 2023 state accident counts. It is not a ground-truth accident-event label and should not be described as a real-time prediction system.
+
+# KLH-CSE-2026-27-2420030416-Explainable-AI-for-Smart-Transportation-Analytics
+
