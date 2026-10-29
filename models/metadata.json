@@ -1,0 +1,36 @@
+{
+    "features": [
+        "2019 Accidents",
+        "2020 Accidents",
+        "2021 Accidents",
+        "2022 Accidents",
+        "average_accidents",
+        "total_accidents_2019_2022",
+        "accident_growth_2019_2022",
+        "accident_variation"
+    ],
+    "classes": [
+        "High",
+        "Low",
+        "Medium"
+    ],
+    "explainability_model": "Random Forest",
+    "hybrid_ensemble": {
+        "enabled": true,
+        "base_models": [
+            "Random Forest",
+            "Gradient Boosting",
+            "XGBoost"
+        ],
+        "meta_model": "Logistic Regression"
+    },
+    "xgboost_label_encoding": {
+        "enabled": true,
+        "mapping": {
+            "High": 0,
+            "Low": 1,
+            "Medium": 2
+        }
+    },
+    "note": "Risk labels are proxy labels derived from 2023 state accident counts."
+}

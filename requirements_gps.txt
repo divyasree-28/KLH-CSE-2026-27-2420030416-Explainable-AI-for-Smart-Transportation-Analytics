@@ -1,0 +1,7 @@
+streamlit
+pandas
+plotly
+joblib
+scikit-learn
+streamlit-geolocation
+requests
